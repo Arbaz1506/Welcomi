@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f1117;
+  color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+  color: #64ffda;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: #21c3b8;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1f26;
+  padding: 15px 30px;
+  box-shadow: 0 2px 10px rgba(0, 255, 255, 0.1);
+}
+
+.navbar .left-links a,
+.navbar .right-links a,
+.navbar .right-links button {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.navbar .right-links button {
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  color: #64ffda;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar .right-links button:hover {
+  background-color: #64ffda;
+  color: #0f1117;
+}
+
+/* Login Container */
+.login-container, .signup-container, .dashboard-container, .page-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #1f2229;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(100, 255, 218, 0.1);
+}
+
+.login-container h2,
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #64ffda;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2b2f3a;
+  color: #fff;
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+}
+
+.password-field span {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #64ffda;
+  color: #0f1117;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #21c3b8;
+}
+
+.google-btn {
+  background-color: #4285f4;
+  color: white;
+}
+
+.forgot-password {
+  text-align: right;
+  color: #bbbbbb;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.page-container {
+  text-align: center;
+  padding: 40px;
+}
+
+.page-container h1 {
+  font-size: 28px;
+  color: #64ffda;
+}
+
+.page-container p {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+/* NotFound page */
+.page-container h2 {
+  color: #ff6b6b;
+}
+
+/* Toast */
+.Toastify__toast-theme--light {
+  background-color: #2b2f3a;
+  color: #fff;
+}
